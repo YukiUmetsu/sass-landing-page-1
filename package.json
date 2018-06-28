@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass src/sass/main.scss src/css/style.css -w",
+    "webpack": "node_modules/.bin/webpack -p"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^6.1.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "jshint-loader": "^0.8.4",
+    "node-sass": "^4.9.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.2",
+    "webpack-cli": "^3.0.8"
+  }
+}

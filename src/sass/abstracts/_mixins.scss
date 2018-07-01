@@ -17,6 +17,10 @@
   box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
 }
 
+@mixin box-shadow-darker {
+  box-shadow: 0 1.5rem 4rem rgba($color-black, .25);
+}
+
 @mixin box-shadow-2 {
   box-shadow: 0 3rem 6rem rgba($color-black, .15);
 }
@@ -26,4 +30,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@mixin border-radius {
+  border-radius: 3px;
 }
